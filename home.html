@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JG Turismo - Comprar Passagem</title>
+    <link rel="stylesheet" href="./assests/css/home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">OFERTAS</a></li>
+                <li><a href="#">DESTINOS</a></li>
+                <li><a href="#">EXCURSÕES</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="content">
+        
+        </div>
+        <div class="form-container">
+            <form>
+                <h3>Compre sua passagem de ônibus</h3>
+                <div class="form-group">
+                    <label for="from">De onde você vai sair?</label>
+                    <input type="text" id="from" placeholder="De onde você vai sair?">
+                </div>
+                <div class="form-group">
+                    <label for="to">Para onde você vai?</label>
+                    <input type="text" id="to" placeholder="Para onde você vai?">
+                </div>
+                <div class="form-group radio-group">
+                    <input type="radio" id="one-way" name="trip" checked>
+                    <label for="one-way">Somente Ida</label>
+                    <input type="radio" id="round-trip" name="trip">
+                    <label for="round-trip">Ida e Volta</label>
+                </div>
+                <div class="form-group">
+                    <label for="departure">Data ida</label>
+                    <input type="date" id="departure">
+                </div>
+                <div class="form-group">
+                    <label for="return">Data volta</label>
+                    <input type="date" id="return" disabled>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="benefits">
+                    <label for="benefits">Passagem com benefícios (para Pessoas Idosas, Passe Livre e ID Jovem)</label>
+                </div>
+                <button type="submit">Buscar passagem</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
